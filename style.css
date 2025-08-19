@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+  /*font-family: "Work Sans", sans-serif;*/
+
+/*----Загальні стилі----*/
+
+body {
+    font-family: "Work Sans", sans-serif;
+    font-size: 16px;
+}
+
+.container {
+    max-width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+p {
+    color: #707273;
+    text-align: center;
+    line-height: 1.6;
+}
+
+/*--------HEADER--------*/
+
+header {
+    display: flex;
+    background-color: #F3FEFF;
+    height: 120px;
+}
+
+.header__logo {
+    width: 103px;
+    height: 37px;
+}
+
+.header__btn {
+    border-radius: 6px;
+    background: #35AFBF;
+
+    display: inline-flex;
+    padding: 15px 30px;
+    align-items: flex-start;
+    gap: 10px;
+    color: #FFFFFF;
+}
+
+.header__container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__right-content {
+    display: flex;
+    align-items: center;
+    gap: 150px;
+}
+
+.header__nav {
+    display: flex;
+    gap: 45px;
+}
+
+.menu-icon {
+    display: none;
+}
