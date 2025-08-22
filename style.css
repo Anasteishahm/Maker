@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
-  /*font-family: "Work Sans", sans-serif;*/
+/*font-family: "Work Sans", sans-serif;*/
 
 /*----Загальні стилі----*/
 
@@ -175,6 +175,7 @@ header {
     background-color: #FFFFFF;
     color: #35AFBF;
     border: 1px solid rgba(53, 175, 191, 0.20);
+    width: max-content;
     /*display: inline-block;*/
 }
 
@@ -206,32 +207,18 @@ header {
 
 /*-------SECTION VIDEO------*/
 
-.video {
-    height: 500px;
-    background-color: #282936;
-    background-image: url(images/Background-video-section.jpg);
-    background-size: cover;
-    background-position: center;
-}
-
-.video__youtube {
-    background-size: cover;
-    background-position: center;
-}
-
-
-
-
 
 .video-section {
     position: relative;
-    background: url('your-background-image.jpg') center/cover no-repeat;
+    /*background: url('your-background-image.jpg') center/cover no-repeat;*/
+    background: url('./images/Background-video-section.jpg') center/cover no-repeat;
     height: 400px;
     display: flex;
     align-items: center;
     justify-content: center;
     color: white;
     text-align: center;
+    margin-bottom: 120px;
 }
 
 .video-section::before {
@@ -247,13 +234,13 @@ header {
     z-index: 1;
 }
 
-.overlay h2 {
+.overlay__title {
     font-size: 32px;
     font-weight: bold;
     margin-bottom: 15px;
 }
 
-.overlay p {
+.overlay__text {
     font-size: 14px;
     line-height: 1.6;
     margin-bottom: 30px;
@@ -282,8 +269,10 @@ header {
     display: none;
     position: fixed;
     z-index: 999;
-    left: 0; top: 0;
-    width: 100%; height: 100%;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
     background-color: rgba(0, 0, 0, 0.8);
     justify-content: center;
     align-items: center;
@@ -303,8 +292,82 @@ header {
 
 .close {
     position: absolute;
-    top: 10px; right: 15px;
+    top: 10px;
+    right: 15px;
     font-size: 28px;
     color: white;
     cursor: pointer;
+}
+
+/*----------FEATURES---------*/
+.features {
+    padding-bottom: 120px;
+}
+
+.features__container {
+    background-color: #00A5AD;
+}
+
+.features__title {
+    color: #252626;
+    text-align: center;
+    font-size: 38px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.features__text {
+    width: 785px;
+    margin: 0 auto 60px;
+}
+
+.sleek-card {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 315px;
+    background-color: orange;
+}
+
+.sleek-img {
+    width: 80px;
+    margin: 30px auto;
+}
+
+.sleek-title {
+    color: #252626;
+    text-align: center;
+    font-size: 21px;
+    font-weight: 600;
+    /*margin-top: 30px;*/
+}
+
+.sleek-text {
+    margin: 15px auto 30px;
+}
+
+.short-line {
+    width: 250px;
+    height: 2px;
+    margin: 15px auto 0;
+    background: linear-gradient(to right, rgba(0, 162, 181, 0), #00a2b5, rgba(0, 162, 181, 0));
+    opacity: 0.6;
+}
+
+.sleek-img {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #35AFBF;
+}
+
+.features__cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 15px;
+    background-color: #707273;
 }

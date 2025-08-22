@@ -2,8 +2,9 @@ document.getElementById('openVideo').addEventListener('click', function (e) {
 	e.preventDefault();
 	const modal = document.getElementById('videoModal');
 	const iframe = document.getElementById('youtubeVideo');
-	// iframe.src = 'https://www.youtube.com/embed/YOUR_VIDEO_ID?autoplay=1';
-	iframe.src = 'https://www.youtube.com/watch?v=d5K-A3Lp9ns';
+	iframe.src = 'https://www.youtube.com/embed/d5K-A3Lp9ns?si=m2SqHk7hRj5w58mF';
+	// "https://www.youtube.com/embed/d5K-A3Lp9ns?si=m2SqHk7hRj5w58mF"
+	// iframe.src = 'https://www.youtube.com/watch?v=d5K-A3Lp9ns';
 	// src="https://www.youtube.com/embed/CQzZacgAmek?si=Ie1bIwurnfqtroud"
 	modal.style.display = 'flex';
 });
