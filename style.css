@@ -210,53 +210,48 @@ header {
 
 .video-section {
     position: relative;
-    /*background: url('your-background-image.jpg') center/cover no-repeat;*/
-    background: url('./images/Background-video-section.jpg') center/cover no-repeat;
-    height: 400px;
+    background: url('./images/image-video.jpg') center/cover no-repeat;
+    height: 500px;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: white;
     text-align: center;
     margin-bottom: 120px;
+    color: #FFFFFF;
 }
 
 .video-section::before {
     content: "";
     position: absolute;
     inset: 0;
-    background: rgba(0, 0, 0, 0.5); /* Dark overlay */
+    background: rgba(16, 41, 45, 0.76);
 }
 
 .overlay {
     position: relative;
-    max-width: 700px;
+    max-width: 765px;
     z-index: 1;
 }
 
 .overlay__title {
-    font-size: 32px;
-    font-weight: bold;
-    margin-bottom: 15px;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 20px;
 }
 
 .overlay__text {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.6;
-    margin-bottom: 30px;
+    margin-bottom: 36px;
+    color: #FFFFFF;
 }
 
 .play-button {
-    display: inline-block;
-    width: 60px;
-    height: 60px;
-    background: white;
+    width: 93px;
+    height: 93px;
+    background: #FFFFFF;
     border-radius: 50%;
-    text-align: center;
-    line-height: 60px;
-    color: #00A5AD;
-    font-size: 28px;
-    text-decoration: none;
     transition: background 0.3s;
 }
 
@@ -283,20 +278,22 @@ header {
     background-color: #000;
     padding: 0;
     max-width: 800px;
-    width: 90%;
+    /*width: 90%;*/
 }
 
 .modal-content iframe {
     display: block;
 }
 
-.close {
+.close-btn {
     position: absolute;
-    top: 10px;
-    right: 15px;
+    top: -35px;
+    right: 0;
     font-size: 28px;
-    color: white;
-    cursor: pointer;
+    color: #FFFFFF;
+    background-color: #000000;
+    padding: 0 9px;
+    border-radius: 50%;
 }
 
 /*----------FEATURES---------*/
