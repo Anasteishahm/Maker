@@ -371,3 +371,56 @@ header {
     gap: 15px;
     background-color: #707273;
 }
+
+/*---------ALWAYS-------*/
+
+.always {
+    padding: 100px 0;
+    background-color: #D1F4F9;
+}
+
+.always__logo {
+    display: block;
+    margin: 0 auto;
+}
+
+.always__img {
+    display: block;
+    margin: 0 auto;
+}
+
+.always__text {
+    margin: 40px 0 30px;
+    color: #4B4C4C;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 1.4;
+}
+
+/*----------PEOPLE---------*/
+
+.people {
+    padding: 120px 0;
+}
+
+
+.people__title {
+    color: #252626;
+    text-align: center;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 1.4;
+    width: 854px;
+    margin: 0 auto 50px;
+}
+
+.people-btn {
+    display: block;
+    margin: 0 auto;
+}
+
+/*-----------SUBSCRIBE---------*/
+
+.subscribe {
+    background-color: #2C353E;
+}
