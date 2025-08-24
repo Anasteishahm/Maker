@@ -420,4 +420,53 @@ header {
 
 .subscribe {
     background-color: #2C353E;
+    padding-bottom: 50px;
+    padding-top: 80px;
+}
+
+.subscribe__card {
+    color: #FFFFFF;
+}
+
+.subscribe-text {
+    margin-top: 15px;
+}
+
+.subscribe__title {
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+.subscribe-btn {
+    border-radius: 12px;
+    border: 2px solid rgba(255, 255, 255, 0.30);
+    background-color: #2C353E;
+    margin-top: 20px;
+}
+
+.subscribe__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.price-container {
+    display: flex;
+    align-items: flex-start;
+}
+
+.currency-symbol {
+    font-size: 16px;
+    margin-right: 2px;
+    line-height: 1.6;
+}
+
+.price-value {
+    font-size: 38px;
+}
+
+.price-unit {
+    font-size: 16px;
+    align-self: flex-end;
 }
